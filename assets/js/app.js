@@ -1,4 +1,4 @@
-// Initialize Firebase
+// Start Firebase
 var config = {
     apiKey: "AIzaSyB4baeJYkjSjyU_jmWkLoLqGA7ewj9SpjU",
     authDomain: "bobstrainschedule.firebaseapp.com",
@@ -54,7 +54,7 @@ $("#addTrainBtn").on("click", function() {
         return false;
     }
 
-    // THE MATH!
+   
     //subtracts the first train time back a year to ensure it's before current time.
     var firstTrainConverted = moment(firstTrain, "hh:mm").subtract("1, years");
     // the time difference between current time and the first train

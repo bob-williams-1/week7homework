@@ -1,10 +1,10 @@
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyB8N-dYGdBI3HW3toJEs3f6v2snNicTT9U",
-    authDomain: "train-master.firebaseapp.com",
-    databaseURL: "https://train-master.firebaseio.com",
-    storageBucket: "",
-    messagingSenderId: "688822092647"
+    apiKey: "AIzaSyB4baeJYkjSjyU_jmWkLoLqGA7ewj9SpjU",
+    authDomain: "bobstrainschedule.firebaseapp.com",
+    databaseURL: "https://bobstrainschedule.firebaseio.com",
+    storageBucket: "bobstrainschedule.appspot.com",
+    messagingSenderId: "980835174736"
 };
 firebase.initializeApp(config);
 

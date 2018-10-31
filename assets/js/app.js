@@ -1,4 +1,5 @@
 // Start Firebase
+
 var config = {
     apiKey: "AIzaSyB4baeJYkjSjyU_jmWkLoLqGA7ewj9SpjU",
     authDomain: "bobstrainschedule.firebaseapp.com",
@@ -81,4 +82,5 @@ $("#addTrainBtn").on("click", function() {
     $("#frequencyInput").val("");
 
     return false;
+    
 });

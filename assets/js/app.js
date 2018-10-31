@@ -29,7 +29,7 @@ database.ref().on("value", function(snapshot) {
 
 });
 
-//grabs information from the form
+
 $("#addTrainBtn").on("click", function() {
 
     var trainName = $("#trainNameInput").val().trim();
